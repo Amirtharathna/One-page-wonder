@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MINI CSS WEBSITE</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+
+            font-family: 'Catamaran', sans-serif;
+            overflow-x: hidden;
+        }
+
+
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 120px;
+            letter-spacing: 0.1rem;
+
+        }
+
+        .nav h3 {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            display: inline;
+
+        }
+
+        .nav ul {
+            display: inline;
+            margin-left: 700px;
+
+        }
+
+        .nav ul li {
+            display: inline;
+            text-transform: uppercase;
+            color: rgb(141, 133, 133);
+            font-weight: 700;
+            font-size: 15px;
+            margin-left: 20px;
+        }
+
+        .d2 {
+            background-image: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+            height: 720px;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+
+        }
+
+        .circle {
+            background-image: linear-gradient(#ff6a00, #ee0979);
+            border-radius: 50%;
+        }
+
+        .c1 {
+            height: 1200px;
+            width: 1200px;
+            position: absolute;
+            top: 150px;
+            left: -55%;
+        }
+
+        .c2 {
+            height: 470px;
+            width: 470px;
+            position: absolute;
+            left: 27%;
+            top: -10%;
+        }
+
+        .c3 {
+            height: 700px;
+            width: 700px;
+            position: absolute;
+            right: -22%;
+            top: -45%;
+        }
+
+        .c4 {
+            height: 330px;
+            width: 330px;
+            position: absolute;
+            bottom: -25%;
+            right: 7%;
+
+        }
+
+        .d2 h1 {
+            color: #fff;
+            text-align: center !important;
+            text-transform: capitalize;
+            font-style: normal;
+            font-variant: normal;
+            font-size: 95px;
+            font-weight: 800;
+            margin: auto auto;
+            z-index: 5;
+            position: relative;
+            top: 30%;
+            margin-bottom: 0px !important;
+            line-height: 1.2;
+            box-sizing: border-box;
+
+
+        }
+
+        .d2 h2 {
+            margin: auto auto;
+            color: #fff;
+            text-align: center;
+            text-transform: capitalize;
+            font-style: normal;
+            font-variant: normal;
+            font-size: 65px;
+            font-weight: 800;
+            margin: 0;
+            z-index: 7;
+            position: relative;
+            margin-bottom: 0px !important;
+            line-height: 1.2;
+            box-sizing: border-box;
+            top: 30%;
+
+        }
+
+
+
+        .b1 {
+            background-color: #ee0979;
+            color: #fff;
+            font-weight: 600;
+            font-size: 12.5px;
+            padding: 25px 40px;
+            border-radius: 50rem;
+            outline: 0;
+            border: 0;
+            text-transform: capitalize;
+            letter-spacing: 1.6px;
+            cursor: pointer;
+            position: absolute;
+            top: 450px;
+            left: 570px;
+            letter-spacing: 0.2rem;
+
+
+
+        }
+
+        .row1 {
+            width: 100%;
+        }
+
+        .col {
+            width: 100%;
+        }
+
+        .d3 {
+            width: 100%;
+
+        }
+
+        .d3-c1 {
+            text-align: center;
+            width: 50%;
+            height: 300px;
+            text-align: left;
+            text-transform: none;
+            color: black;
+            float: left;
+            /* background-color: yellow;*/
+            margin: 10% 2%;
+            overflow: hidden;
+
+        }
+
+        .d3-c1 h1 {
+            width:  !00%;
+            font-weight: 800;
+            font-size: 55px;
+            font-variant: normal;
+            margin-left: 17.5%;
+            margin-top: 3%;
+            margin-bottom: 0;
+
+
+        }
+
+        .d3-c1 p {
+            width: 100%;
+            color: black;
+            margin-left: 17.5%;
+            margin-top: 0;
+            /* margin-top: 0px;
+            margin-right: 15%;
+            margin-left: 12.5%;
+            padding: 0px;*/
+            line-height: 1.5;
+            margin-bottom: 0px;
+        }
+
+        .d3-c2 {
+            width: 50%;
+            float: right;
+            /* background-color: blue;*/
+            transform: translate(20%, 25%);
+            height: 300px;
+            margin-top: -510px;
+            margin-left: 0;
+            position: relative;
+
+        }
+
+        .d3-c2 img {
+            float: right;
+            position: absolute;
+            padding: 0;
+            border-radius: 50%;
+            margin-left: -10%;
+            margin-top: -10%;
+            display: block;
+            height: 450px;
+
+        }
+
+        .row2 {
+            width: 100%;
+        }
+
+        .d4 {
+            width: 50%;
+            float: left;
+        }
+
+        .d4-c1 {
+            border-radius: 50%;
+        }
+
+        .d4-c1 img {
+            border-radius: 50%;
+            display: block;
+            height: 450px;
+            margin-bottom: 2%;
+            margin-top: 15%;
+            margin-right: 15%;
+            margin-left: 25%;
+            padding: 0px;
+
+        }
+
+        .d4-c2 {
+            text-align: left;
+            text-transform: none;
+            color: black;
+        }
+
+        .d4-c2 h1 {
+            font-weight: 800;
+            font-size: 55px;
+            font-variant: normal;
+            margin-bottom: 0px;
+            margin-top: 35%;
+            margin-left: 10%;
+            margin-right: 25%;
+            padding: 0px;
+        }
+
+        .d4-c2 p {
+
+            color: black;
+            margin-top: 10px;
+            margin-left: 10%;
+            margin-right: 25%;
+            padding: 0px;
+            line-height: 1.5;
+            margin-bottom: 0px;
+            text-align: left;
+        }
+
+        .row3 {
+            width: 100%;
+
+        }
+
+        .d5 {
+            width: 50%;
+            float: left;
+        }
+
+        .d5-c1 {
+            border-radius: 50%;
+        }
+
+        .d5-c1 img {
+            border-radius: 50%;
+            height: 450px;
+            margin-top: 35%;
+            margin-left: 60px;
+            margin-bottom: 40px;
+        }
+
+        .d5-c2 {
+            text-align: left;
+            transform: translate(20%, 25%);
+
+
+        }
+
+        .d5-c2 h1 {
+            margin-top: -50%;
+            text-transform: none;
+            font-weight: 800;
+            font-size: 55px;
+            font-variant: normal;
+            margin-bottom: 0px;
+            margin-left: 5%;
+
+
+        }
+
+        .d5-c2 p {
+            margin-left: 5%;
+            margin-right: 30%;
+            line-height: 1.5;
+
+
+        }
+
+
+
+        .nav-bot {
+clear:both;
+            margin-top: 30px;
+            background-color: black;
+
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            padding: 20px 120px;
+        }
+
+        .nav-bot h6 {
+            text-align: center;
+            text-transform: none;
+            text-decoration: none;
+            text-decoration-style: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+
+        <h3>Start Bootstrap</h3>
+
+
+        <ul>
+            <li> Sign Up </li>
+            <li>Log in</li>
+        </ul>
+
+
+    </div>
+
+    <div class="d2">
+        <h1>one page wonder</h1>
+        <h2>will rock your socks off</h2>
+
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+
+        <div class="circle c4"></div>
+        <button class="b1">LEARN MORE</button>
+    </div>
+    <div class="row1">
+        <div class="col">
+            <div class="d3 d3-c1">
+                <h1>For those about <br> to rock...</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla deleniti molestiae consectetur
+                    recusandae
+                    quas, natus consequatur quo at quae rerum dolor dolorem accusamus quia totam odit a, voluptates
+                    necessitatibus! Dolorum!</p>
+            </div>
+            <div class="d3 d3-c2"> <img src="cc1.jpg" alt="guitar">
+
+            </div>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="col">
+            <div class="d4 d4-c1">
+                <img src="css2.jpg" alt="css2"></div>
+            <div class="d4 d4-c2">
+                <h1>We salute you!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam quos sint harum excepturi,
+                    distinctio
+                    maxime pariatur? Eligendi odio beatae, explicabo laborum ex modi et culpa dolorum quasi. Nisi,
+                    soluta
+                    optio!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row3">
+        <div class="col">
+            <div class="d5 d5-c1">
+                <img src="css3.jpg" alt="css3">
+            </div>
+            <div class="d5 d5-c2">
+                <h1>Let there be rock!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora corrupti laborum aperiam amet fuga
+                    sequi sint est non tenetur in repellendus, incidunt quasi corporis officia. Odit, necessitatibus
+                    unde.
+                    Repellat, id?</p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-bot">
+        <h6>Copyright &copy; Your Website 2019</h6>
+    </div>
+
+</body>
+
+</html>
